@@ -9,21 +9,22 @@
         <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Kosugi+Maru" rel="stylesheet">
         <meta http-equiv="cache-control" content="no-cache" />
         <script src="cookies.js"></script>
-
     </head>
     <body>
-    <div id="main-container">
-        <h1 id="welcome">Pick a cookie, any cookie!</h1>
 
-            <button id="sug" onclick="addSugarCookie()"></button>
-            <button id="choco" onclick="addChocCookie()"></button>
-            <button id="lem" onclick="addLemonCookie()"></button><br>
+        <div id="main-container">
+            <h1 id="welcome">Add cookies to your cart:</h1>
 
-            <span id="sugar-cookie">sugar count</span><br>
-            <span id="choc-cookie">chocolate count</span><br>
-            <span id="lemon-cookie">lemon count</span><br>
-            <button id="zero" onclick="zeroCookieCount()">Cancel Order</button>
-    </div>
+                <button id="sug" onclick="addSugarCookie()"></button>
+                <button id="choco" onclick="addChocCookie()"></button>
+                <button id="lem" onclick="addLemonCookie()"></button>
+
+                <span id="sugar-cookie">sugar count</span>
+                <span id="choc-cookie">chocolate count</span>
+                <span id="lemon-cookie">lemon count</span>
+                <button id="zero" onclick="zeroCookieCount()">Trash Order</button>
+        </div>
+
         <script src="main.js"></script>
     </body>
 </html>
