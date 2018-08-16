@@ -11,7 +11,6 @@ function addSugarCookie() {
     var sugNumber = addSugar;
     Cookies.set("sugar cookie", sugNumber) + addSugar;  
     var totalSugar = Cookies.get("sugar cookie");
-    console.log(totalSugar + " sugar");
     document.querySelector("#sugar");
     document.querySelector("#sugar-cookie").innerHTML = "You have " + sugNumber + " sugar cookies";
 }
@@ -29,7 +28,6 @@ function addChocCookie() {
     var chocNumber = addChoc;
     Cookies.set("chocolate cookie", chocNumber) + addChoc;  
     var totalChoc = Cookies.get("chocolate cookie");
-    console.log(totalChoc + " chocolate");
     document.querySelector("#choc");
     document.querySelector("#choc-cookie").innerHTML = "You have " + chocNumber + " chocolate cookies";
 }
@@ -47,7 +45,6 @@ function addLemonCookie() {
     var lemonNumber = addLemon;
     Cookies.set("lemon cookie", lemonNumber) + addLemon;  
     var totalLemon = Cookies.get("lemon cookie");
-    console.log(totalLemon + " lemon");
     document.querySelector("#lemon");
     document.querySelector("#lemon-cookie").innerHTML = "You have " + lemonNumber + " lemon cookies";
 }
