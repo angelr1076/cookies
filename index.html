@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cookies</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Kosugi+Maru" rel="stylesheet">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <script src="cookies.js"></script>
+
+    </head>
+    <body>
+    <div id="main-container">
+        <h1 id="welcome">Pick a cookie, any cookie!</h1>
+
+            <button id="sug" onclick="addSugarCookie()"></button>
+            <button id="choco" onclick="addChocCookie()"></button>
+            <button id="lem" onclick="addLemonCookie()"></button><br>
+
+            <span id="sugar-cookie">sugar count</span><br>
+            <span id="choc-cookie">chocolate count</span><br>
+            <span id="lemon-cookie">lemon count</span><br>
+            <button id="zero" onclick="zeroCookieCount()">Cancel Order</button>
+    </div>
+        <script src="main.js"></script>
+    </body>
+</html>
