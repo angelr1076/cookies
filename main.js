@@ -64,4 +64,5 @@ function zeroCookieCount() {
     document.querySelector("#choc-cookie").innerHTML = "You have " + 0 + " chocolate cookies";
     Cookies.set("lemon cookie", 0);
     document.querySelector("#lemon-cookie").innerHTML = "You have " + 0 + " lemon cookies";
+    location.reload(true);
 }
